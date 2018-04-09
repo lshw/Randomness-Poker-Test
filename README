@@ -1,0 +1,18 @@
+
+Commands to run - 
+    
+poker [option] [file]
+
+option:
+-h help
+-d debug mode
+-x data is hex string
+-m[1-16]  set m to 1-16
+
+return:
+0 pass (P-value>0.01)
+1 fail (P-value<0.01)
+
+if [file] is null , then data input by stdio.
+
+
