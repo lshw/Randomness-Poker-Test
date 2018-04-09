@@ -1,10 +1,14 @@
 # Random Poker Test
 
-随机数的扑克检测.
+随机数的扑克检测.  
 
-compile:
-make
+compile:  
+make  
 
-run:
+run:  
 
-dd if=/dev/urandom bs=1024 count=100 |hexdump -v -e '/ "%02x"'|./poker -m4 
+dd if=/dev/urandom bs=1024 count=100 |./poker -m4
+
+Thanks: 
+https://github.com/AnushaBilakanti/Randomness-Tests 
+https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software
