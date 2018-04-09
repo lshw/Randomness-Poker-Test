@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 #include <string.h>
 #include <math.h>
-#include <arpa/inet.h>
-#include <openssl/md5.h>
 #include "cephes.h"
 
 double threshold3 = 0.0;
